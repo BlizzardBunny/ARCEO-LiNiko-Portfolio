@@ -1,0 +1,7 @@
+1. PlayerMovement.cs is meant to create a Traditional JRPG style movement where the player can only move vertically or horizontally, but unlike most traditional JRPGs, it's not gridlocked movement. 
+
+2. SceneTransition.cs is used to create a fading in/out effect between scenes. Simply attach this object to a black image that fills up the whole screen, and call the LoadScene() method in this script, instead of the one of SceneManager.
+
+3. GameManager.cs is the game manager for a 3D cue ball game. It sets up the level variables and manages the functionalities of the UI. I believe this is the script that best illustrates my coding style.
+
+4. npc_attack_device.verse is used in a Fortnite Creative Map where the player is able to have an NPC Follower. This script allows the NPC to be able to participate in battles, by launching projectiles at any enemy that damages the player.
